@@ -27,6 +27,8 @@ inoremap <C-O> <Esc>o
 imap <C-S> <esc>:w<CR>
 imap <C-Q> <esc>:wq<CR>
 
+inoremap jk <esc>
+
 " command line alias
 cnoremap <C-p> <Up>
 cnoremap <C-b> <Left>
@@ -36,6 +38,7 @@ cnoremap <C-e> <End>
 cnoremap <C-d> <Del>
 cnoremap <C-h> <BS>
 cnoremap <C-t> <C-R>=expand("%:p:h") . "/" <CR>
+
 
 tnoremap <A-[> <C-\><C-n>
 

@@ -37,3 +37,5 @@ hook_source= '''
     " Set floating window border line color to cyan, and background to orange
     hi FloatermBorder guibg=none guifg=cyan
 '''
+
+repo = 'wsdjeg/dein-ui.vim'
