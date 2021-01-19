@@ -20,7 +20,9 @@ nmap <leader>0 <Plug>BuffetSwitch(10)
 nnoremap <silent> <Leader>e
   \ :<C-u>Defx -resume -toggle -buffer-name=tab`tabpagenr()`<CR>
 nnoremap <silent> <Leader>F
-  \ :<C-u>Defx -resume -buffer-name=tabtabpagenr()` -search=`expand('%:p')`<CR>
+		\ :<C-u>Defx
+		\   -search=`escape(expand('%:p'), ' :')`
+		\   -buffer-name=explorer`tabpagenr()`<CR>
 nnoremap <silent> <Leader>od :DBUIToggle<CR>
 
 "--------------------------"
