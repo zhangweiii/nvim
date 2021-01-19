@@ -5,7 +5,9 @@
 nnoremap  ]b :<C-u>bp<CR>
 nnoremap  [b :<C-u>bn<CR>
 nnoremap <silent> <Leader>bc :Bonly<CR>
-nnoremap <silent> <Leader>bx :Bw<CR>
+nnoremap <silent> <Leader>bd :Bw<CR>
+nnoremap <silent> <Leader>sw :set wrap<CR>
+nnoremap <silent> <Leader>su :set nowrap<CR>
 nmap <leader>1 <Plug>BuffetSwitch(1)
 nmap <leader>2 <Plug>BuffetSwitch(2)
 nmap <leader>3 <Plug>BuffetSwitch(3)
@@ -131,6 +133,9 @@ nnoremap <silent> <Leader>gb :Git blame<CR>
 nnoremap <silent> <Leader>gf :Gfetch<CR>
 nnoremap <silent> <Leader>gs :Git<CR>
 nnoremap <silent> <Leader>gp :Gpush<CR>
+
+nnoremap <silent> <Leader>vs :vsplit<CR>
+nnoremap <silent> <Leader>sp :split<CR>
 
 "--------------------------"
 "     Coc Keymap           "

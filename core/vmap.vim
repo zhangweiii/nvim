@@ -60,8 +60,8 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 
 " settings for resize splitted window
-nmap <C-w>[ :vertical resize -3<CR>
-nmap <C-w>] :vertical resize +3<CR>
+nmap <C-w>[ :vertical resize +3<CR>
+nmap <C-w>] :vertical resize -3<CR>
 
 " Session management shortcuts (see plugin/sessions.vim)
 nmap <Leader>ss :<C-u>SessionSave<CR>
