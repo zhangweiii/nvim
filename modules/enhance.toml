@@ -26,6 +26,7 @@ hook_source = '''
 	let g:rainbow_active = 1
 '''
 
+[[plugins]]
 repo = 'voldikss/vim-floaterm'
 on_cmd = ['FloatermNew', 'FloatermToggle', 'FloatermPrev', 'FloatermNext', 'FloatermSend']
 hook_source= '''
@@ -38,4 +39,5 @@ hook_source= '''
     hi FloatermBorder guibg=none guifg=cyan
 '''
 
+[[plugins]]
 repo = 'wsdjeg/dein-ui.vim'

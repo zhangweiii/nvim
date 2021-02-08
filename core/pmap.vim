@@ -6,6 +6,7 @@ nnoremap  ]b :<C-u>bp<CR>
 nnoremap  [b :<C-u>bn<CR>
 nnoremap <silent> <Leader>bc :Bonly<CR>
 nnoremap <silent> <Leader>bd :Bw<CR>
+nnoremap <silent> <Leader>sc :CarbonNowSh<CR>
 nnoremap <silent> <Leader>sw :set wrap<CR>
 nnoremap <silent> <Leader>su :set nowrap<CR>
 nmap <leader>1 <Plug>BuffetSwitch(1)
@@ -176,8 +177,8 @@ nmap <Leader>gi <Plug>(coc-git-chunkinfo)
 " show commit contains current position
 nmap <Leader>gm <Plug>(coc-git-commit)
 " float window scroll
-nnoremap <expr><C-f> coc#float#has_float() ? coc#float#float_scroll(1) : "\<C-f>"
-nnoremap <expr><C-b> coc#float#has_float() ? coc#float#float_scroll(0) : "\<C-b>"
+" nnoremap <expr><C-f> coc#float#has_float() ? coc#float#float_scroll(1) : "\<C-f>"
+" nnoremap <expr><C-b> coc#float#has_float() ? coc#float#float_scroll(0) : "\<C-b>"
 " Use <TAB> for selections ranges.
 " NOTE: Requires 'textDocument/selectionRange' support from the language server.
 " coc-tsserver, coc-python are the examples of servers that support it.

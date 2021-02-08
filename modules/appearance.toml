@@ -22,7 +22,7 @@ repo = 'mhartington/oceanic-next'
 repo = 'dracula/vim'
 
 [[plugins]]
-repo = 'hardcoreplayers/oceanic-material'
+repo = 'glepnir/oceanic-material'
 
 [[plugins]]
 repo = 'joshdick/onedark.vim'
@@ -32,14 +32,14 @@ repo = 'rakr/vim-one'
 
 
 [[plugins]]
-repo = 'hardcoreplayers/dashboard-nvim'
+repo = 'glepnir/dashboard-nvim'
 
 [[plugins]]
-repo = 'hardcoreplayers/vim-buffet'
+repo = 'zhangweiii/vim-buffet'
 on_event = ['BufReadPre','BufNewFile']
 
 [[plugins]]
-repo = 'hardcoreplayers/spaceline.vim'
+repo = 'glepnir/spaceline.vim'
 hook_source = '''
 	let g:spaceline_seperate_style= 'slant'
 '''
@@ -198,4 +198,10 @@ on_source = 'defx.nvim'
 hook_add = '''
     let g:defx_icons_column_length = 1
     let g:defx_icons_mark_icon = ''
+'''
+
+[[plugins]]
+repo = 'kristijanhusak/vim-carbon-now-sh'
+hook_add = '''
+		let g:carbon_now_sh_options = { 'ln': 'true', 'fm': 'Material' }
 '''
