@@ -29,6 +29,7 @@ hook_add = '''
 		\ 'coc-css',
 		\ 'coc-style-helper',
 		\ 'coc-react-refactor',
+		\ 'coc-tsserver',
 		\ 'coc-vetur',
 		\]
 
