@@ -50,6 +50,12 @@ nnoremap <silent> <Leader>oc :<C-u>Clap personalconf<CR>
 "--------------------------"
 "     coc-clap Keymap      "
 "--------------------------"
+nnoremap <silent> <leader>      :<c-u>WhichKey '<Space>'<CR>
+nnoremap <silent> <localleader> :<c-u>WhichKey  ';'<CR>
+
+"--------------------------"
+"     coc-clap Keymap      "
+"--------------------------"
 " Show all diagnostics
 nnoremap <silent> <Leader>ce  :Clap coc_diagnostics<CR>
 " Manage extensions

@@ -40,4 +40,7 @@ hook_source= '''
 '''
 
 [[plugins]]
+repo = 'liuchengxu/vim-which-key'
+
+[[plugins]]
 repo = 'wsdjeg/dein-ui.vim'
