@@ -142,3 +142,8 @@ on_ft = [ 'typescript', 'typescriptreact' ]
 [[plugins]]
 repo = 'posva/vim-vue'
 on_ft = 'vue'
+
+
+[[plugins]]
+repo = 'codota/tabnine-vim'
+on_ft = [ 'vue', 'javascript', 'go', 'python', 'flutter' ]
