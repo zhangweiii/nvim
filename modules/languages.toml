@@ -144,6 +144,7 @@ repo = 'posva/vim-vue'
 on_ft = 'vue'
 
 
-[[plugins]]
-repo = 'codota/tabnine-vim'
-on_ft = [ 'vue', 'javascript', 'go', 'python', 'flutter' ]
+
+# [[plugins]]
+# repo = 'codota/tabnine-vim'
+# on_ft = [ 'vue', 'javascript', 'go', 'python', 'flutter' ]
