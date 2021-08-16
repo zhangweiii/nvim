@@ -143,7 +143,11 @@ on_ft = [ 'typescript', 'typescriptreact' ]
 repo = 'posva/vim-vue'
 on_ft = 'vue'
 
+[[plugins]]
+repo = 'rust-lang/rust.vim'
 
+[[plugins]]
+repo = 'mattn/webapi-vim'
 
 # [[plugins]]
 # repo = 'codota/tabnine-vim'
