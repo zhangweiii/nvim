@@ -43,4 +43,4 @@ nmap <leader>z :call Zoom()<CR>
 
 autocmd User Node if &filetype == "javascript" | setlocal expandtab | endif
 
-" let g:kite_supported_languages = ['python', 'javascript', 'go']
+autocmd BufWritePre *.dart* DartFmt
