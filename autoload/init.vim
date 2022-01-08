@@ -44,3 +44,6 @@ nmap <leader>z :call Zoom()<CR>
 autocmd User Node if &filetype == "javascript" | setlocal expandtab | endif
 
 autocmd BufWritePre *.dart* DartFmt
+
+autocmd FileType typescript setlocal et sta sw=4 sts=4
+autocmd FileType javascript setlocal et sta sw=4 sts=4

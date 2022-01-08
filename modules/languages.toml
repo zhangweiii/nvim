@@ -149,6 +149,10 @@ repo = 'rust-lang/rust.vim'
 [[plugins]]
 repo = 'mattn/webapi-vim'
 
+[[plugins]]
+repo = 'vim-ruby/vim-ruby'
+on_ft = 'ruby'
+
 # [[plugins]]
 # repo = 'codota/tabnine-vim'
 # on_ft = [ 'vue', 'javascript', 'go', 'python', 'flutter' ]
